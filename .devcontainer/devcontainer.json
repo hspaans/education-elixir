@@ -16,8 +16,9 @@
   "remoteUser": "vscode",
 
   "extensions": [
-    "editorconfig.editorconfig",
-    "github.vscode-pull-request-github",
-    "redhat.vscode-yaml"
-  ]
+	"editorconfig.editorconfig",
+  "github.vscode-pull-request-github",
+  "mjmcloug.vscode-elixir",
+	"redhat.vscode-yaml"
+]
 }
