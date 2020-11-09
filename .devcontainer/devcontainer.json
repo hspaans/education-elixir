@@ -1,20 +1,12 @@
 {
   "name": "Elixir",
-  "build":{
-    "dockerfile": "Dockerfile",
-    "context": ".."
-  },
-
+  "image": "ghcr.io/hspaans/elixir-devcontainer:latest",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
-
   "appPort": [],
-
   "postCreateCommand": "",
-
   "remoteUser": "vscode",
-
   "extensions": [
     "editorconfig.editorconfig",
     "github.vscode-pull-request-github",
